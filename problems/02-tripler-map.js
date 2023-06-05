@@ -12,7 +12,12 @@ console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
 */
 
 let tripler = function(nums) {
-    // Your code here
+  let newarr = []
+  nums.array.forEach(element => {
+      let mult = element *= 3
+      newarr.push(mult)  
+  });
+  return newarr
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
